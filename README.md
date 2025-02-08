@@ -1,7 +1,7 @@
 # EasyDate
 **flutter_easy_date**
 
-EasyDate is a simple Flutter package for formatting dates and times dynamically based on locale.
+EasyDate is a Flutter package for formatting dates and times dynamically based on locale.
 
 <img src="https://github.com/Nikola-developer/flutter_easy_date/blob/main/assets/images/easy_date_example.png?raw=true"/>
 
