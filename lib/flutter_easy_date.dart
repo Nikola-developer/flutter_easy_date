@@ -30,8 +30,8 @@ class EasyDate {
   /// Determines the date format based on the locale dynamically, with error handling.
   static String _getDateFormat(Locale? locale) {
     try {
-    final Locale effectiveLocale =
-        locale ?? Locale(PlatformDispatcher.instance.locale.languageCode);
+      final Locale effectiveLocale =
+          locale ?? Locale(PlatformDispatcher.instance.locale.languageCode);
       return DateFormat.yMd(effectiveLocale.languageCode).pattern ??
           "MM/dd/yyyy HH:mm:ss";
     } catch (e) {
