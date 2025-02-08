@@ -1,7 +1,7 @@
 name: flutter_easy_date
 description: "Flutter package for formatting dates and times dynamically based on locale."
 repository: https://github.com/Nikola-developer/flutter_easy_date
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
