@@ -1,0 +1,12 @@
+# Treat all Dart files as the main language
+*.dart linguist-detectable=true
+
+# Ignore native dependencies from language statistics
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+test/** linguist-vendored
+build/** linguist-vendored
